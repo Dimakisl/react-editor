@@ -1,0 +1,39 @@
+.header {
+  height: 70px;
+  flex-shrink: 0;
+  background: #272822;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 2px solid #333;
+  gap: 15px;
+}
+
+.button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+  background: #333;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  background: #444;
+}
+
+.camera {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  z-index: 1000;
+}
